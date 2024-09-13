@@ -1,0 +1,26 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registro de Estudiantes</title>
+    </head>
+    <body>
+        <h1>Registro de Estudiantes</h1>
+        <form id="Formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            <label for="grado">Calificación:</label>
+            <input type="number" id="grado" min="0" max="20" required>
+            <button type="submit">Agregar Estudiante</button>
+        </form>
+        
+        <h2>Promedio de Calificaciones</h2>
+        <p id="promedio">0</p>
+
+        <h2>Estudiantes con la nota mayor al promedio</h2>
+        <div id="estudiantes cercanos"></div>
+
+        <script src="js.js"></script>
+    </body>
+    </html>
